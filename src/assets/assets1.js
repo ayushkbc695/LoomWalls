@@ -541,7 +541,6 @@ import Expand4 from './HomeStyle/Expand-4.jpeg'
 
 import lib1 from './HomeStyle/lib-1.jpeg'
 import lib2 from './HomeStyle/lib-2.jpeg'
-import lib3 from './HomeStyle/lib-3.jpeg'
 import lib4 from './HomeStyle/lib-4.jpeg'
 import lib5 from './HomeStyle/lib-5.jpeg'
 import lib6 from './HomeStyle/lib-6.jpeg'
@@ -552,7 +551,7 @@ import lib8 from './HomeStyle/lib-8.jpeg'
 export const homeStyle = {
     Home1, Home2, Home3, Home4, Home5, Home6, Home7, Home8, Home9, Home10, Home11,
     Expand1, Expand3, Expand2, Expand4,
-    lib1, lib2, lib3, lib4, lib5, lib6, lib7, lib8,
+    lib1, lib2, lib4, lib5, lib6, lib7, lib8,
 }
 
 // -------------------------- Explore_Images (Explore) -------------------------- //
