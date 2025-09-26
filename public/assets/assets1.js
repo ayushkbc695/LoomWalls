@@ -282,7 +282,7 @@ export const BannerImage = {
     description: "Beautiful sketches created with creativity."
   },
   black_Clover: {
-    banner: new URL('./Banner/blackCLover.jpg', import.meta.url).href,
+    banner: new URL('./Banner/blackCLover.png', import.meta.url).href,
     title: "Black Clover",
     subTitle: "Magic Born from Defiance – Spells Ignite, Rivals Rise, and the Underdog Claims the Throne",
     description: "Beautiful sketches created with creativity."
@@ -312,7 +312,7 @@ export const BannerImage = {
     description: "Epic adventures in a world of pirates."
   },
   demon_Slayer: {
-    banner: new URL('./Banner/demonslayer.jpg', import.meta.url).href,
+    banner: new URL('./Banner/demonslayer.png', import.meta.url).href,
     title: "Demon Slayer",
     subTitle: "Blades Against Darkness – Demons Fall, Bonds Strengthen, and Humanity Fights Back",
     description: "A tale of courage and determination."
