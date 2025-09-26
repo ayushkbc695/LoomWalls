@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useMemo } from "react";
 import { useParams } from "react-router-dom";
 import ImageCard from "../components/ImageCard";
-import { BannerImage, CombineImage1 } from "../assets/assets1";
+import { BannerImage, CombineImage1 } from "../../public/assets/assets1";
 
 // ======== Title page Hook ======
 import { usePageTitle } from "../Hook/usePageTitle";

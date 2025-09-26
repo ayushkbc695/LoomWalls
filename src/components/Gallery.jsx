@@ -1,5 +1,5 @@
 import React from 'react'
-import { Explore } from '../assets/assets1'
+import { Explore } from '../../public/assets/assets1'
 import { useNavigate } from 'react-router-dom'
 
 

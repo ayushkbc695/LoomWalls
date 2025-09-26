@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
-import { DummyblogDetails } from "../assets/assets1";
+import { DummyblogDetails } from "../../public/assets/assets1";
 import { slugify } from "../utils/slugify";
 import { motion } from "framer-motion";
 import { usePageTitle } from "../Hook/usePageTitle";

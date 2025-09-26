@@ -1,5 +1,5 @@
 import React from 'react'
-import { homeStyle } from '../assets/assets1'
+import { homeStyle } from '../../public/assets/assets1'
 import { Link } from 'react-router-dom'
 
 const LatestCollection = () => {

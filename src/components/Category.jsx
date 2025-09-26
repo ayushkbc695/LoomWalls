@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { Explore, homeStyle } from '../assets/assets1'
+import { Explore, homeStyle } from '../../public/assets/assets1'
 
 const Category = () => {
 
