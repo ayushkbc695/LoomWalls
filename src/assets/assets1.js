@@ -282,7 +282,7 @@ export const BannerImage = {
     description: "Beautiful sketches created with creativity."
   },
   black_Clover: {
-    banner: new URL('./Banner/blackClover.png', import.meta.url).href,
+    banner: new URL('./Banner/blackClover.jpeg', import.meta.url).href,
     title: "Black Clover",
     subTitle: "Magic Born from Defiance – Spells Ignite, Rivals Rise, and the Underdog Claims the Throne",
     description: "Beautiful sketches created with creativity."

@@ -18,17 +18,17 @@ const ContactPage = () => {
 
                     <div>
                         <label className="block text-gray-700 font-medium mb-2">Name</label>
-                        <input type="text" placeholder="Your name" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-teal-500 outline-none"/>
+                        <input type="text" placeholder="Your name" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-teal-500 outline-none" required/>
                     </div>
 
                     <div>
                         <label className="block text-gray-700 font-medium mb-2">Email</label>
-                        <input type="email" placeholder="you@example.com" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-teal-500 outline-none" />
+                        <input type="email" placeholder="you@example.com" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-teal-500 outline-none" required />
                     </div>
 
                     <div>
                         <label className="block text-gray-700 font-medium mb-2">Message</label>
-                        <textarea placeholder="Write your message..." rows="4" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-teal-500 outline-none"></textarea>
+                        <textarea placeholder="Write your message..." rows="4" className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-teal-500 outline-none" required></textarea>
                     </div>
 
                     <button type="submit" className="w-full bg-teal-600 text-white py-3 rounded-lg hover:bg-orange-500 transition-all font-semibold" >

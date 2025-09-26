@@ -75,7 +75,7 @@ const AboutPage = () => {
 
             {/* ----------------------- Newsletter Section  ---------------------------*/}
             <div className="mt-16 max-w-2xl text-center px-6">
-                <h2 className="text-3xl font-semibold text-gray-800 libertinus mb-2">Stay Connected</h2>
+                <h2 className="text-3xl font-semibold text-gray-800 libertinus mb-2">Stay Connected with Us</h2>
                 <p className="text-gray-600 mb-6">
                     Subscribe to our newsletter to get the latest updates and new collections.
                 </p>
