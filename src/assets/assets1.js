@@ -192,6 +192,15 @@ export const MarvelImage = generateImageArray('./Marvel/marvel', 106, {
   namePrefix: 'Marvel'
 });
 
+// Usage for Art:
+export const PaintImage = generateImageArray('./Art/paint', 76, {
+  prefix: 'Art',
+  category: 'Art',
+  namePrefix: 'Art'
+});
+
+
+
 
 function shuffleArray(array) {
   const shuffled = [...array];
@@ -241,6 +250,7 @@ export const CombineImage1 = {
   figure: FigureImage,
   marvel: MarvelImage,
   anime: AnimeAllImage,
+  art: PaintImage,
 }
 
 export const allImages = Array.from(
@@ -380,6 +390,12 @@ export const BannerImage = {
   anime: {
     banner: new URL('./Banner/anime.jpg', import.meta.url).href,
     title: "Anime",
+    subTitle: "Worlds Without Limits – Heroes Rise, Bonds Form, and Adventures Transcend Imagination",
+    description: "A celebration of anime in all its forms — from action-packed epics to heartfelt stories."
+  },
+  art: {
+    banner: new URL('./Banner/paint.jpeg', import.meta.url).href,
+    title: "Art",
     subTitle: "Worlds Without Limits – Heroes Rise, Bonds Form, and Adventures Transcend Imagination",
     description: "A celebration of anime in all its forms — from action-packed epics to heartfelt stories."
   },

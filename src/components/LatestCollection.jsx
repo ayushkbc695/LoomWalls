@@ -74,11 +74,11 @@ const LatestCollection = () => {
                         </div>
                     </Link>
 
-                    <Link className="relative group flex-grow transition-all w-56 rounded-lg overflow-hidden h-[400px] duration-500 hover:w-full">
+                    <Link to='/explore/art' className="relative group flex-grow transition-all w-56 rounded-lg overflow-hidden h-[400px] duration-500 hover:w-full">
                         <img className="h-full w-full object-cover object-center" src={homeStyle.Home7} alt="image" />
 
                          <div className="absolute inset-0 flex flex-col justify-end p-4 text-white bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                            <h1 className="text-xl outfit font-medium">Photos Collage Background</h1>
+                            <h1 className="text-xl outfit font-medium">Art Background</h1>
                             <div className="flex items-center gap-1 text-sm text-white/70">
                                 Show More
                                 <svg width="16" height="16" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
