@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { blogPosts } from "../../public/assets/assets1";
+import { blogPosts } from "../assets/assets1";
 import { slugify } from "../utils/slugify";
 import { motion } from "framer-motion";
 import { usePageTitle } from "../Hook/usePageTitle";

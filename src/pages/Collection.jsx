@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { toast } from 'react-toastify';
 import ImageCard from '../components/ImageCard';
 import { Link } from 'react-router-dom';
-import { allImages } from '../../public/assets/assets1';
+import { allImages } from '../assets/assets1';
 import Title from '../components/Title';
 
 const Collection = () => {

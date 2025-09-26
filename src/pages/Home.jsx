@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { homeStyle } from '../../public/assets/assets1'
+import { homeStyle } from '../assets/assets1'
 import LatestCollection from '../components/LatestCollection'
 import LatestLibary from '../components/LatestLibary'
 import { CompassIcon } from 'lucide-react'

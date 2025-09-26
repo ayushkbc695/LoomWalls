@@ -1,5 +1,5 @@
 import React from 'react'
-import { homeStyle } from '../../public/assets/assets1'
+import { homeStyle } from '../assets/assets1'
 import { useNavigate } from 'react-router-dom'
 
 const LatestLibary = () => {

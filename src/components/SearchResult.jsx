@@ -2,7 +2,7 @@
 import React, { useMemo } from 'react';
 import { useLocation } from 'react-router-dom';
 import ImageCard from '../components/ImageCard';
-import { CombineImage1 } from '../../public/assets/assets1';
+import { CombineImage1 } from '../assets/assets1';
 import { usePageTitle } from '../Hook/usePageTitle';
 
 const SearchResults = () => {
